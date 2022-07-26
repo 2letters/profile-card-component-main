@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: hsl(185, 75%, 39%);
+}
+
+.background {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg");
+    background-position: right 52vw bottom 35vh, left 48vw top 52vh;
+    background-repeat: no-repeat;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 350px;
+    height: 374px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px 5px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    color: hsl(227, 10%, 46%);
+}
+
+.bg-main {
+    position: absolute;
+    border-radius: 15px 15px 0 0;
+}
+
+.avatar {
+    margin-top: 87px;
+    border: 5px solid #FFFFFF;
+    border-radius: 100%;
+    width: 96px;
+    height: 96px;
+    z-index: 99;
+}
+
+.bio {
+    display: flex;
+    margin-top: 19px;
+}
+
+.bio h1 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: hsl(229, 23%, 23%);
+}
+
+.bio p{
+    margin-left: 9px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.country {
+    margin-top: 9px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+hr {
+    width: 100%;
+    border-top: solid 1px hsla(0, 0%, 91%, 1);
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    margin-top: 26px;
+}
+
+.counts-module {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 246px;
+    height: 88px;
+}
+
+.counts-module div {
+    text-align: center;
+}
+
+.counts-module h2 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+}
+
+.counts-module p {
+    margin-top: 5px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.15em;
+}
