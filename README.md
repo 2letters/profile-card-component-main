@@ -20,8 +20,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://)
-- Live Site URL: [Site](https://)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/flexbox-profile-card-component-Ovt4YrScBz)
+- Live Site URL: [Site](https://profile-card-component-main-black.vercel.app/)
 
 ## My process
 
