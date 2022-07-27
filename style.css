@@ -10,10 +10,6 @@ body {
     height: 100%;
     font-family: 'Kumbh Sans', sans-serif;
     background-color: hsl(185, 75%, 39%);
-}
-
-.background {
-    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,6 +17,7 @@ body {
     background-image: url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg");
     background-position: right 52vw bottom 35vh, left 48vw top 52vh;
     background-repeat: no-repeat;
+    background-size: 70%;
 }
 
 main {
