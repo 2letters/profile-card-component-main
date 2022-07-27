@@ -15,7 +15,7 @@ body {
     align-items: center;
     flex-direction: column;
     background-image: url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg");
-    background-position: right 52vw bottom 35vh, left 48vw top 52vh;
+    background-position: right 52vw bottom 32vh, left 48vw top 46vh;
     background-repeat: no-repeat;
     background-size: 70%;
 }
