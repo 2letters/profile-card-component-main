@@ -36,17 +36,15 @@ p {
 }
 
 .bg-main {
-    position: absolute;
     border-radius: 15px 15px 0 0;
 }
 
 .avatar {
-    margin-top: 87px;
+    margin-top: -53px;
     border: 5px solid #FFFFFF;
-    border-radius: 100%;
+    border-radius: 100vmax;
     width: 96px;
     height: 96px;
-    z-index: 99;
 }
 
 .bio {
@@ -110,4 +108,12 @@ hr {
     font-size: 10px;
     line-height: 12px;
     letter-spacing: 0.15em;
+}
+
+@media screen and (max-width: 1000px) {
+
+    body {
+        background-size: auto;
+    }
+
 }
